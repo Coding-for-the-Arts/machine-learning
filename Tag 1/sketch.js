@@ -3,7 +3,7 @@ let poses = []
 let connections;
 
 function preload() {
-  video = createVideo("/assets/street_540_960_25fps.mp4")
+  video = createVideo("./assets/street_540_960_25fps.mp4")
   video.hide()
 
   bodyPose = ml5.bodyPose(modelLoaded)
